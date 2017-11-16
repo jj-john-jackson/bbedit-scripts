@@ -26,7 +26,7 @@ sys.dont_write_bytecode = True
 # Avoids creating a .pyc file when importing from another file:
 from pyscripts import VERSION as PYTHON_SCRIPT_VERSION
 
-BUILD_VERSION = '0.0.3'
+BUILD_VERSION = '0.0.4'
 
 TARGET_DIR = 'target'
 APPLICATION = 'BBEdit'
@@ -40,7 +40,7 @@ PYTHON_SCRIPT = "%s.py" % PYTHON_SCRIPT_NAME
 
 PACKAGE = "%s.bbpackage" % PYTHON_SCRIPT_NAME
 
-DOCUMENTATION_COMMAND = "•Documentation %s" % PYTHON_SCRIPT_NAME
+DOCUMENTATION_COMMAND = "• Documentation %s" % PYTHON_SCRIPT_NAME
 SCRIPTS_README = "READ_ME_%s.md" % PYTHON_SCRIPT_NAME
 
 INSTALL_SCRIPT = 'install.sh'
